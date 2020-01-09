@@ -13,5 +13,10 @@ namespace WebApplication6
         {
 
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("lion2.aspx");
+        }
     }
 }

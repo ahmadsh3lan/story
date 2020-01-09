@@ -112,8 +112,13 @@
     <Content Include="Images\Lioness\7.png" />
     <Content Include="Images\Lioness\8.png" />
     <Content Include="Images\Lioness\9.png" />
+    <Content Include="Images\Lioness\The Very Tired Lioness [Mpgun.com].mp3" />
     <Content Include="Lion1.aspx" />
     <Content Include="lion2.aspx" />
+    <Content Include="lion3.aspx" />
+    <Content Include="lion4.aspx" />
+    <Content Include="lion5.aspx" />
+    <Content Include="lion6.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +139,34 @@
     </Compile>
     <Compile Include="lion2.aspx.designer.cs">
       <DependentUpon>lion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lion3.aspx.cs">
+      <DependentUpon>lion3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lion3.aspx.designer.cs">
+      <DependentUpon>lion3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lion4.aspx.cs">
+      <DependentUpon>lion4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lion4.aspx.designer.cs">
+      <DependentUpon>lion4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lion5.aspx.cs">
+      <DependentUpon>lion5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lion5.aspx.designer.cs">
+      <DependentUpon>lion5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lion6.aspx.cs">
+      <DependentUpon>lion6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lion6.aspx.designer.cs">
+      <DependentUpon>lion6.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
